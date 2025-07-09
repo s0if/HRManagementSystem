@@ -1,74 +1,64 @@
 ﻿@model AddEmployeesViewModel
 
+<div class="max-w-2xl mx-auto mt-10 p-6 bg-white rounded-lg shadow-lg">
+    <h2 class="text-2xl font-bold text-blue-600 mb-6 border-b pb-2">Add Employee</h2>
 
-<div class="container mt-5">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card shadow">
-                <div class="card-header bg-primary text-white">
-                    <h4 class="mb-0">Add Employee</h4>
-                </div>
-                <div class="card-body">
-                    <form asp-action="AddEmployee" asp-controller="Employees">
-                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+    <form asp-action="AddEmployee" asp-controller="Employees" class="space-y-4">
+        <div asp-validation-summary="ModelOnly" class="bg-red-100 text-red-700 p-3 rounded"></div>
 
-                        <div class="mb-3">
-                            <label asp-for="Name" class="form-label"></label>
-                            <input asp-for="Name" class="form-control" />
-                            <span asp-validation-for="Name" class="text-danger"></span>
-                        </div>
-
-                        <div class="mb-3">
-                            <label asp-for="DateOfBirth" class="form-label"></label>
-                            <input asp-for="DateOfBirth" type="date" class="form-control" />
-                            <span asp-validation-for="DateOfBirth" class="text-danger"></span>
-                        </div>
-
-                        <div class="mb-3">
-                            <label asp-for="Email" class="form-label"></label>
-                            <input asp-for="Email" class="form-control" />
-                            <span asp-validation-for="Email" class="text-danger"></span>
-                        </div>
-
-                        <div class="mb-3">
-                            <label asp-for="Phone" class="form-label"></label>
-                            <input asp-for="Phone" class="form-control" />
-                            <span asp-validation-for="Phone" class="text-danger"></span>
-                        </div>
-
-                        <div class="mb-3">
-                            <label asp-for="Department" class="form-label"></label>
-                            <select asp-for="Department" class="form-select" asp-items="Model.DepartmentOptions"></select>
-                            <span asp-validation-for="Department" class="text-danger"></span>
-                        </div>
-
-                        <div class="mb-3">
-                            <label asp-for="JopTitle" class="form-label"></label>
-                            <input asp-for="JopTitle" class="form-control" />
-                            <span asp-validation-for="JopTitle" class="text-danger"></span>
-                        </div>
-
-                        <div class="mb-3">
-                            <label asp-for="HireDate" class="form-label"></label>
-                            <input asp-for="HireDate" type="date" class="form-control" />
-                            <span asp-validation-for="HireDate" class="text-danger"></span>
-                        </div>
-
-                        <div class="mb-3">
-                            <label asp-for="Status" class="form-label"></label>
-                            <select asp-for="Status" class="form-select" asp-items="Model.StatusOptions"></select>
-                            <span asp-validation-for="Status" class="text-danger"></span>
-                        </div>
-
-                        <div class="d-flex justify-content-between">
-                            <a asp-action="Index" class="btn btn-outline-secondary">Back to List</a>
-                            <button type="submit" class="btn btn-primary">Create</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+        <div>
+            <label asp-for="Name" class="block text-sm font-medium text-gray-700"></label>
+            <input asp-for="Name" class="mt-1 block w-full border border-black rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" />
+            <span asp-validation-for="Name" class="text-red-600 text-sm"></span>
         </div>
-    </div>
+
+        <div>
+            <label asp-for="DateOfBirth" class="block text-sm font-medium text-gray-700"></label>
+            <input asp-for="DateOfBirth" type="date" class="mt-1 block w-full border border-black rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" />
+            <span asp-validation-for="DateOfBirth" class="text-red-600 text-sm"></span>
+        </div>
+
+        <div>
+            <label asp-for="Email" class="block text-sm font-medium text-gray-700"></label>
+            <input asp-for="Email" class="mt-1 block w-full border border-black rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" />
+            <span asp-validation-for="Email" class="text-red-600 text-sm"></span>
+        </div>
+
+        <div>
+            <label asp-for="Phone" class="block text-sm font-medium text-gray-700"></label>
+            <input asp-for="Phone" class="mt-1 block w-full border border-black rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" />
+            <span asp-validation-for="Phone" class="text-red-600 text-sm"></span>
+        </div>
+
+        <div>
+            <label asp-for="Department" class="block text-sm font-medium text-gray-700"></label>
+            <select asp-for="Department" class="mt-1 block w-full border border-black rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" asp-items="Model.DepartmentOptions"></select>
+            <span asp-validation-for="Department" class="text-red-600 text-sm"></span>
+        </div>
+
+        <div>
+            <label asp-for="JopTitle" class="block text-sm font-medium text-gray-700"></label>
+            <input asp-for="JopTitle" class="mt-1 block w-full border border-black rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" />
+            <span asp-validation-for="JopTitle" class="text-red-600 text-sm"></span>
+        </div>
+
+        <div>
+            <label asp-for="HireDate" class="block text-sm font-medium text-gray-700"></label>
+            <input asp-for="HireDate" type="date" class="mt-1 block w-full border border-black rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" />
+            <span asp-validation-for="HireDate" class="text-red-600 text-sm"></span>
+        </div>
+
+        <div>
+            <label asp-for="Status" class="block text-sm font-medium text-gray-700"></label>
+            <select asp-for="Status" class="mt-1 block w-full border border-black rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" asp-items="Model.StatusOptions"></select>
+            <span asp-validation-for="Status" class="text-red-600 text-sm"></span>
+        </div>
+
+        <div class="flex justify-between mt-6">
+            <a asp-action="Index" class="px-4 py-2 border border border-black rounded-md text-gray-700 hover:bg-gray-100">Back to List</a>
+            <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Create</button>
+        </div>
+    </form>
 </div>
 
 @section Scripts {

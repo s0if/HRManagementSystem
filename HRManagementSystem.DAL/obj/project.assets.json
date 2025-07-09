@@ -4716,11 +4716,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Saif\\Desktop\\HRManagementSystem\\HRManagementSystem.DAL\\HRManagementSystem.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Saif\\Desktop\\TS\\HRManagementSystem\\HRManagementSystem.DAL\\HRManagementSystem.DAL.csproj",
       "projectName": "HRManagementSystem.DAL",
-      "projectPath": "C:\\Users\\Saif\\Desktop\\HRManagementSystem\\HRManagementSystem.DAL\\HRManagementSystem.DAL.csproj",
+      "projectPath": "C:\\Users\\Saif\\Desktop\\TS\\HRManagementSystem\\HRManagementSystem.DAL\\HRManagementSystem.DAL.csproj",
       "packagesPath": "C:\\Users\\Saif\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Saif\\Desktop\\HRManagementSystem\\HRManagementSystem.DAL\\obj\\",
+      "outputPath": "C:\\Users\\Saif\\Desktop\\TS\\HRManagementSystem\\HRManagementSystem.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

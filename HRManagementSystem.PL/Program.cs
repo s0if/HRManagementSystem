@@ -37,7 +37,7 @@ namespace HRManagementSystem.PL
             app.MapStaticAssets();
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}")
+                pattern: "{controller=Employees}/{action=AllEmployee}/{id?}")
                 .WithStaticAssets();
 
             app.Run();

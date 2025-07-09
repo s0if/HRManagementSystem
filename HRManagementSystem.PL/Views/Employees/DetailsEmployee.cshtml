@@ -1,72 +1,61 @@
 ﻿@model DetailsEmployeeViewModel
 
 @{
-    ViewData["Title"] = "DetailsEmployee";
+    ViewData["Title"] = "Employee Details";
 }
 
-<h1>DetailsEmployee</h1>
+<div class="max-w-4xl mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold text-blue-700 mb-6">Employee Details</h1>
 
-<div>
-    <h4>Employee</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Id)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DateOfBirth)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DateOfBirth)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Email)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Phone)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Phone)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Department)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Department)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.JopTitle)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.JopTitle)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.HireDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.HireDate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Status)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Status)
-        </dd>
-    </dl>
-</div>
-<div>
-    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
-    <a asp-action="Index">Back to List</a>
+    <div class="bg-white shadow rounded-lg p-6">
+        <dl class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4">
+            <div>
+                <dt class="font-semibold text-gray-600">ID</dt>
+                <dd class="text-gray-800">@Model.Id</dd>
+            </div>
+            <div>
+                <dt class="font-semibold text-gray-600">Name</dt>
+                <dd class="text-gray-800">@Model.Name</dd>
+            </div>
+            <div>
+                <dt class="font-semibold text-gray-600">Date of Birth</dt>
+                <dd class="text-gray-800">@Model.DateOfBirth.ToShortDateString()</dd>
+            </div>
+            <div>
+                <dt class="font-semibold text-gray-600">Email</dt>
+                <dd class="text-gray-800">@Model.Email</dd>
+            </div>
+            <div>
+                <dt class="font-semibold text-gray-600">Phone</dt>
+                <dd class="text-gray-800">@Model.Phone</dd>
+            </div>
+            <div>
+                <dt class="font-semibold text-gray-600">Department</dt>
+                <dd class="text-gray-800">@Model.Department</dd>
+            </div>
+            <div>
+                <dt class="font-semibold text-gray-600">Job Title</dt>
+                <dd class="text-gray-800">@Model.JopTitle</dd>
+            </div>
+            <div>
+                <dt class="font-semibold text-gray-600">Hire Date</dt>
+                <dd class="text-gray-800">@Model.HireDate.ToShortDateString()</dd>
+            </div>
+            <div>
+                <dt class="font-semibold text-gray-600">Status</dt>
+                <dd class="text-gray-800">@Model.Status</dd>
+            </div>
+        </dl>
+    </div>
+
+    <div class="mt-6 flex space-x-4">
+        <a asp-action="EditEmployee" asp-route-Id="@Model.Id"
+           class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+            Edit
+        </a>
+        <a asp-action="AllEmployee"
+           class="inline-block bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600 transition">
+            Back to List
+        </a>
+    </div>
 </div>

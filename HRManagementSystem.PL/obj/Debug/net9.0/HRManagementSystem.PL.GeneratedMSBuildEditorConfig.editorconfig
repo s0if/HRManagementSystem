@@ -17,61 +17,61 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HRManagementSystem.PL
 build_property.RootNamespace = HRManagementSystem.PL
-build_property.ProjectDir = C:\Users\Saif\Desktop\HRManagementSystem\HRManagementSystem.PL\
+build_property.ProjectDir = C:\Users\Saif\Desktop\TS\HRManagementSystem\HRManagementSystem.PL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Saif\Desktop\HRManagementSystem\HRManagementSystem.PL
+build_property.MSBuildProjectDirectory = C:\Users\Saif\Desktop\TS\HRManagementSystem\HRManagementSystem.PL
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Saif/Desktop/HRManagementSystem/HRManagementSystem.PL/Views/Employees/AddEmployee.cshtml]
+[C:/Users/Saif/Desktop/TS/HRManagementSystem/HRManagementSystem.PL/Views/Employees/AddEmployee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEFkZEVtcGxveWVlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Saif/Desktop/HRManagementSystem/HRManagementSystem.PL/Views/Employees/AllEmployee.cshtml]
+[C:/Users/Saif/Desktop/TS/HRManagementSystem/HRManagementSystem.PL/Views/Employees/AllEmployee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEFsbEVtcGxveWVlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Saif/Desktop/HRManagementSystem/HRManagementSystem.PL/Views/Employees/DetailsEmployee.cshtml]
+[C:/Users/Saif/Desktop/TS/HRManagementSystem/HRManagementSystem.PL/Views/Employees/DetailsEmployee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERldGFpbHNFbXBsb3llZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Saif/Desktop/HRManagementSystem/HRManagementSystem.PL/Views/Employees/EditEmployee.cshtml]
+[C:/Users/Saif/Desktop/TS/HRManagementSystem/HRManagementSystem.PL/Views/Employees/EditEmployee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEVkaXRFbXBsb3llZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Saif/Desktop/HRManagementSystem/HRManagementSystem.PL/Views/Home/Index.cshtml]
+[C:/Users/Saif/Desktop/TS/HRManagementSystem/HRManagementSystem.PL/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Saif/Desktop/HRManagementSystem/HRManagementSystem.PL/Views/Home/Privacy.cshtml]
+[C:/Users/Saif/Desktop/TS/HRManagementSystem/HRManagementSystem.PL/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Saif/Desktop/HRManagementSystem/HRManagementSystem.PL/Views/Shared/Error.cshtml]
+[C:/Users/Saif/Desktop/TS/HRManagementSystem/HRManagementSystem.PL/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Saif/Desktop/HRManagementSystem/HRManagementSystem.PL/Views/Shared/_validatePartial.cshtml]
+[C:/Users/Saif/Desktop/TS/HRManagementSystem/HRManagementSystem.PL/Views/Shared/_validatePartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF92YWxpZGF0ZVBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Saif/Desktop/HRManagementSystem/HRManagementSystem.PL/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Saif/Desktop/TS/HRManagementSystem/HRManagementSystem.PL/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Saif/Desktop/HRManagementSystem/HRManagementSystem.PL/Views/_ViewImports.cshtml]
+[C:/Users/Saif/Desktop/TS/HRManagementSystem/HRManagementSystem.PL/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Saif/Desktop/HRManagementSystem/HRManagementSystem.PL/Views/_ViewStart.cshtml]
+[C:/Users/Saif/Desktop/TS/HRManagementSystem/HRManagementSystem.PL/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Saif/Desktop/HRManagementSystem/HRManagementSystem.PL/Views/Shared/_Layout.cshtml]
+[C:/Users/Saif/Desktop/TS/HRManagementSystem/HRManagementSystem.PL/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-t238131ytq
