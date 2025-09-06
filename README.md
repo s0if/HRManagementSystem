@@ -59,6 +59,12 @@ Each employee record contains:
 ```bash
 git clone https://github.com/s0if/HRManagementSystem.git
 ```
+## 📄 Project Report
+
+للاطّلاع على تقرير المشروع باللغة العربية (HTML) والذي يشرح الفكرة، التقنيات، التحديات، والدروس المستفادة:
+
+🔗 [عرض التقرير](https://s0if.github.io/HR_Management_System_Report_Arabic/)
+```
 
 2. **Update connection string** in `appsettings.json` to match your local SQL Server / SQLite setup.
 
