@@ -1,0 +1,95 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="profileBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8FAFC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F1F5F9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="profileHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#profileBg)"/>
+
+  <text x="960" y="100" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="url(#profileHeader)" text-anchor="middle">
+    Employee Profile
+  </text>
+
+  <!-- Profile card -->
+  <rect x="260" y="180" width="1400" height="820" rx="32" fill="white" stroke="#E2E8F0" stroke-width="2"/>
+
+  <!-- Header gradient -->
+  <rect x="260" y="180" width="1400" height="180" rx="32" fill="url(#profileHeader)"/>
+  <rect x="260" y="280" width="1400" height="80" fill="url(#profileHeader)"/>
+
+  <!-- Avatar -->
+  <circle cx="380" cy="310" r="100" fill="white" stroke="white" stroke-width="8"/>
+  <text x="380" y="340" font-size="72" fill="#6366F1" text-anchor="middle">👤</text>
+
+  <!-- Name and title -->
+  <text x="540" y="310" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#1E293B">Sarah Johnson</text>
+  <text x="540" y="360" font-family="Arial, sans-serif" font-size="32" fill="#6366F1">Senior HR Manager</text>
+
+  <!-- Status badge -->
+  <rect x="1380" y="280" width="160" height="48" rx="24" fill="#DCFCE7"/>
+  <text x="1460" y="312" font-family="Arial, sans-serif" font-size="22" font-weight="600" fill="#15803D" text-anchor="middle">✓ Active</text>
+
+  <!-- Info cards grid -->
+  <!-- Row 1 -->
+  <g transform="translate(300, 420)">
+    <rect width="400" height="140" rx="20" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="2"/>
+    <circle cx="50" cy="50" r="32" fill="#6366F1" opacity="0.2"/>
+    <text x="50" y="62" font-size="28" fill="#6366F1" text-anchor="middle">🆔</text>
+    <text x="110" y="45" font-family="Arial, sans-serif" font-size="18" fill="#64748B">Employee ID</text>
+    <text x="110" y="85" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1E293B">EMP-001</text>
+  </g>
+
+  <g transform="translate(740, 420)">
+    <rect width="400" height="140" rx="20" fill="#FCE7F3" stroke="#FBCFE8" stroke-width="2"/>
+    <circle cx="50" cy="50" r="32" fill="#8B5CF6" opacity="0.2"/>
+    <text x="50" y="62" font-size="28" fill="#8B5CF6" text-anchor="middle">✉️</text>
+    <text x="110" y="45" font-family="Arial, sans-serif" font-size="18" fill="#64748B">Email</text>
+    <text x="110" y="85" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1E293B">sarah.j@company.com</text>
+  </g>
+
+  <g transform="translate(1180, 420)">
+    <rect width="400" height="140" rx="20" fill="#D1FAE5" stroke="#A7F3D0" stroke-width="2"/>
+    <circle cx="50" cy="50" r="32" fill="#10B981" opacity="0.2"/>
+    <text x="50" y="62" font-size="28" fill="#10B981" text-anchor="middle">📱</text>
+    <text x="110" y="45" font-family="Arial, sans-serif" font-size="18" fill="#64748B">Phone</text>
+    <text x="110" y="85" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1E293B">+1 555 0123</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(300, 600)">
+    <rect width="400" height="140" rx="20" fill="#FEF3C7" stroke="#FDE68A" stroke-width="2"/>
+    <circle cx="50" cy="50" r="32" fill="#F59E0B" opacity="0.2"/>
+    <text x="50" y="62" font-size="28" fill="#F59E0B" text-anchor="middle">🏢</text>
+    <text x="110" y="45" font-family="Arial, sans-serif" font-size="18" fill="#64748B">Department</text>
+    <text x="110" y="85" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1E293B">Human Resources</text>
+  </g>
+
+  <g transform="translate(740, 600)">
+    <rect width="400" height="140" rx="20" fill="#CFFAFE" stroke="#A5F3FC" stroke-width="2"/>
+    <circle cx="50" cy="50" r="32" fill="#06B6D4" opacity="0.2"/>
+    <text x="50" y="62" font-size="28" fill="#06B6D4" text-anchor="middle">📅</text>
+    <text x="110" y="45" font-family="Arial, sans-serif" font-size="18" fill="#64748B">Date of Birth</text>
+    <text x="110" y="85" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1E293B">15/03/1988</text>
+  </g>
+
+  <g transform="translate(1180, 600)">
+    <rect width="400" height="140" rx="20" fill="#D1FAE5" stroke="#A7F3D0" stroke-width="2"/>
+    <circle cx="50" cy="50" r="32" fill="#14B8A6" opacity="0.2"/>
+    <text x="50" y="62" font-size="28" fill="#14B8A6" text-anchor="middle">📆</text>
+    <text x="110" y="45" font-family="Arial, sans-serif" font-size="18" fill="#64748B">Hire Date</text>
+    <text x="110" y="85" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1E293B">01/06/2020</text>
+  </g>
+
+  <!-- Action buttons -->
+  <rect x="300" y="800" width="640" height="70" rx="16" fill="url(#profileHeader)"/>
+  <text x="620" y="845" font-family="Arial, sans-serif" font-size="28" font-weight="600" fill="white" text-anchor="middle">✏️ Edit Employee</text>
+
+  <rect x="980" y="800" width="600" height="70" rx="16" fill="#E5E7EB"/>
+  <text x="1280" y="845" font-family="Arial, sans-serif" font-size="28" font-weight="600" fill="#374151" text-anchor="middle">← Back to List</text>
+</svg>

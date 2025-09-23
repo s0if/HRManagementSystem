@@ -3,29 +3,61 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - HRManagementSystem.PL</title>
+    <title>@ViewData["Title"] - HRManagementSystem</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/HRManagementSystem.PL.styles.css" asp-append-version="true" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#6366f1',
+                        secondary: '#8b5cf6',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
-<body class="bg-gray-100 text-gray-900">
-    <header class="bg-white shadow mb-4">
-        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <a class="text-xl font-bold text-blue-600" asp-area="" asp-controller="Employees" asp-action="AllEmployee">
-                HRManagementSystem
-            </a>
-            <div class="space-x-4">
-                <a class="text-gray-700 hover:text-blue-600" asp-area="" asp-controller="Employees" asp-action="AllEmployee">Employee</a>
-                <a class="text-gray-700 hover:text-blue-600" asp-area="" asp-controller="Employees" asp-action="AddEmployee">Add</a>
+<body class="bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 min-h-screen">
+    <header class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-indigo-100">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <a class="flex items-center space-x-3 group" asp-area="" asp-controller="Employees" asp-action="AllEmployee">
+                    <div class="bg-gradient-to-br from-indigo-500 to-purple-600 p-2 rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-300">
+                        <i class="fas fa-users text-white text-xl"></i>
+                    </div>
+                    <span class="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+                        HR Management
+                    </span>
+                </a>
+                <div class="flex items-center space-x-2">
+                    <a class="px-5 py-2.5 text-gray-700 hover:text-indigo-600 font-medium rounded-xl hover:bg-indigo-50 transition-all duration-300 flex items-center space-x-2"
+                       asp-area="" asp-controller="Employees" asp-action="AllEmployee">
+                        <i class="fas fa-users-cog"></i>
+                        <span>Employees</span>
+                    </a>
+                    <a class="px-5 py-2.5 bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-medium rounded-xl hover:from-indigo-600 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all duration-300 flex items-center space-x-2"
+                       asp-area="" asp-controller="Employees" asp-action="AddEmployee">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Add Employee</span>
+                    </a>
+                </div>
             </div>
         </nav>
     </header>
 
-    <main class="container mx-auto px-4 py-6">
+    <main class="container mx-auto px-6 py-8">
         @RenderBody()
     </main>
 
-   
+    <footer class="mt-16 py-8 bg-white/50 backdrop-blur-sm border-t border-indigo-100">
+        <div class="container mx-auto px-6 text-center text-gray-600">
+            <p class="text-sm">&copy; 2025 HR Management System. All rights reserved.</p>
+        </div>
+    </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

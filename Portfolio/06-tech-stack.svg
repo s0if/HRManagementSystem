@@ -1,0 +1,70 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="techBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E293B;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#techBg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="300" cy="200" r="200" fill="#6366F1" opacity="0.05"/>
+  <circle cx="1600" cy="800" r="250" fill="#8B5CF6" opacity="0.05"/>
+
+  <text x="960" y="140" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="url(#techGradient)" text-anchor="middle">
+    Technology Stack
+  </text>
+
+  <!-- Backend -->
+  <g transform="translate(280, 250)">
+    <rect width="640" height="320" rx="28" fill="#1E293B" stroke="#6366F1" stroke-width="3"/>
+    <text x="320" y="60" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#F1F5F9" text-anchor="middle">Backend</text>
+
+    <rect x="40" y="100" width="560" height="80" rx="16" fill="#334155"/>
+    <text x="60" y="148" font-family="Arial, sans-serif" font-size="32" fill="#F1F5F9">ASP.NET Core 9.0</text>
+
+    <rect x="40" y="200" width="560" height="80" rx="16" fill="#334155"/>
+    <text x="60" y="248" font-family="Arial, sans-serif" font-size="32" fill="#F1F5F9">Entity Framework Core</text>
+  </g>
+
+  <!-- Database -->
+  <g transform="translate(1000, 250)">
+    <rect width="640" height="320" rx="28" fill="#1E293B" stroke="#8B5CF6" stroke-width="3"/>
+    <text x="320" y="60" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#F1F5F9" text-anchor="middle">Database</text>
+
+    <rect x="40" y="100" width="560" height="80" rx="16" fill="#334155"/>
+    <text x="60" y="148" font-family="Arial, sans-serif" font-size="32" fill="#F1F5F9">SQL Server</text>
+
+    <rect x="40" y="200" width="560" height="80" rx="16" fill="#334155"/>
+    <text x="60" y="248" font-family="Arial, sans-serif" font-size="32" fill="#F1F5F9">Code First Approach</text>
+  </g>
+
+  <!-- Frontend -->
+  <g transform="translate(280, 650)">
+    <rect width="640" height="320" rx="28" fill="#1E293B" stroke="#6366F1" stroke-width="3"/>
+    <text x="320" y="60" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#F1F5F9" text-anchor="middle">Frontend</text>
+
+    <rect x="40" y="100" width="560" height="80" rx="16" fill="#334155"/>
+    <text x="60" y="148" font-family="Arial, sans-serif" font-size="32" fill="#F1F5F9">Razor Pages (MVC)</text>
+
+    <rect x="40" y="200" width="560" height="80" rx="16" fill="#334155"/>
+    <text x="60" y="248" font-family="Arial, sans-serif" font-size="32" fill="#F1F5F9">Tailwind CSS</text>
+  </g>
+
+  <!-- Architecture -->
+  <g transform="translate(1000, 650)">
+    <rect width="640" height="320" rx="28" fill="#1E293B" stroke="#8B5CF6" stroke-width="3"/>
+    <text x="320" y="60" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#F1F5F9" text-anchor="middle">Architecture</text>
+
+    <rect x="40" y="100" width="560" height="80" rx="16" fill="#334155"/>
+    <text x="60" y="148" font-family="Arial, sans-serif" font-size="32" fill="#F1F5F9">3-Layer Architecture</text>
+
+    <rect x="40" y="200" width="560" height="80" rx="16" fill="#334155"/>
+    <text x="60" y="248" font-family="Arial, sans-serif" font-size="32" fill="#F1F5F9">Repository Pattern</text>
+  </g>
+</svg>

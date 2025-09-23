@@ -1,0 +1,90 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8FAFC;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#EFF6FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EDE9FE;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- Decorative Elements -->
+  <circle cx="100" cy="100" r="150" fill="#6366F1" opacity="0.05"/>
+  <circle cx="1100" cy="530" r="180" fill="#8B5CF6" opacity="0.05"/>
+
+  <!-- Main Icon Container -->
+  <rect x="80" y="180" width="280" height="280" rx="40" fill="url(#iconGradient)" opacity="0.1"/>
+  <rect x="90" y="190" width="260" height="260" rx="35" fill="white" opacity="0.9"/>
+
+  <!-- HR Icon - Multiple Users -->
+  <g transform="translate(140, 240)">
+    <!-- User 1 -->
+    <circle cx="40" cy="40" r="25" fill="url(#iconGradient)"/>
+    <path d="M 15 90 Q 15 65 40 65 Q 65 65 65 90 L 15 90 Z" fill="url(#iconGradient)"/>
+
+    <!-- User 2 -->
+    <circle cx="120" cy="40" r="25" fill="url(#iconGradient)" opacity="0.8"/>
+    <path d="M 95 90 Q 95 65 120 65 Q 145 65 145 90 L 95 90 Z" fill="url(#iconGradient)" opacity="0.8"/>
+
+    <!-- User 3 -->
+    <circle cx="80" cy="85" r="25" fill="url(#iconGradient)" opacity="0.9"/>
+    <path d="M 55 135 Q 55 110 80 110 Q 105 110 105 135 L 55 135 Z" fill="url(#iconGradient)" opacity="0.9"/>
+  </g>
+
+  <!-- Title -->
+  <text x="420" y="260" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="url(#textGradient)">
+    HR Management
+  </text>
+
+  <!-- Subtitle -->
+  <text x="420" y="320" font-family="Arial, sans-serif" font-size="32" fill="#64748B">
+    Employee Directory System
+  </text>
+
+  <!-- Feature Pills -->
+  <g transform="translate(420, 360)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="180" height="45" rx="22.5" fill="#6366F1" opacity="0.1"/>
+    <text x="25" y="30" font-family="Arial, sans-serif" font-size="18" fill="#6366F1" font-weight="600">
+      Modern UI
+    </text>
+
+    <!-- Pill 2 -->
+    <rect x="200" y="0" width="200" height="45" rx="22.5" fill="#8B5CF6" opacity="0.1"/>
+    <text x="225" y="30" font-family="Arial, sans-serif" font-size="18" fill="#8B5CF6" font-weight="600">
+      Tailwind CSS
+    </text>
+
+    <!-- Pill 3 -->
+    <rect x="420" y="0" width="180" height="45" rx="22.5" fill="#6366F1" opacity="0.1"/>
+    <text x="445" y="30" font-family="Arial, sans-serif" font-size="18" fill="#6366F1" font-weight="600">
+      ASP.NET 9
+    </text>
+  </g>
+
+  <!-- Tech Stack Icons -->
+  <g transform="translate(420, 450)">
+    <circle cx="30" cy="30" r="30" fill="white" stroke="#E5E7EB" stroke-width="2"/>
+    <text x="30" y="40" font-family="monospace" font-size="24" fill="#6366F1" text-anchor="middle">C#</text>
+
+    <circle cx="120" cy="30" r="30" fill="white" stroke="#E5E7EB" stroke-width="2"/>
+    <text x="120" y="40" font-family="monospace" font-size="24" fill="#8B5CF6" text-anchor="middle">EF</text>
+
+    <circle cx="210" cy="30" r="30" fill="white" stroke="#E5E7EB" stroke-width="2"/>
+    <text x="210" y="40" font-family="monospace" font-size="20" fill="#6366F1" text-anchor="middle">SQL</text>
+  </g>
+
+  <!-- Bottom Accent Line -->
+  <rect x="0" y="620" width="1200" height="10" fill="url(#iconGradient)" opacity="0.3"/>
+</svg>

@@ -1,0 +1,81 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="formBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8FAFC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EFF6FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="formGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#formBg)"/>
+
+  <text x="960" y="120" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="url(#formGradient)" text-anchor="middle">
+    Add New Employee
+  </text>
+
+  <!-- Form container -->
+  <rect x="360" y="200" width="1200" height="780" rx="32" fill="white" opacity="0.95" stroke="#E0E7FF" stroke-width="3"/>
+
+  <!-- Form fields - Row 1 -->
+  <g transform="translate(420, 280)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#475569">👤 Full Name</text>
+    <rect x="0" y="10" width="1080" height="60" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="20" y="50" font-family="Arial, sans-serif" font-size="22" fill="#94A3B8">Enter full name</text>
+  </g>
+
+  <!-- Form fields - Row 2 -->
+  <g transform="translate(420, 400)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#475569">📅 Date of Birth</text>
+    <rect x="0" y="10" width="520" height="60" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="20" y="50" font-family="Arial, sans-serif" font-size="22" fill="#94A3B8">DD/MM/YYYY</text>
+  </g>
+
+  <g transform="translate(980, 400)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#475569">✉️ Email Address</text>
+    <rect x="0" y="10" width="520" height="60" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="20" y="50" font-family="Arial, sans-serif" font-size="22" fill="#94A3B8">email@example.com</text>
+  </g>
+
+  <!-- Form fields - Row 3 -->
+  <g transform="translate(420, 520)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#475569">📱 Phone Number</text>
+    <rect x="0" y="10" width="520" height="60" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="20" y="50" font-family="Arial, sans-serif" font-size="22" fill="#94A3B8">+1 234 567 8900</text>
+  </g>
+
+  <g transform="translate(980, 520)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#475569">🏢 Department</text>
+    <rect x="0" y="10" width="520" height="60" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="20" y="50" font-family="Arial, sans-serif" font-size="22" fill="#94A3B8">Select department</text>
+  </g>
+
+  <!-- Form fields - Row 4 -->
+  <g transform="translate(420, 640)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#475569">💼 Job Title</text>
+    <rect x="0" y="10" width="520" height="60" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="20" y="50" font-family="Arial, sans-serif" font-size="22" fill="#94A3B8">e.g., Software Engineer</text>
+  </g>
+
+  <g transform="translate(980, 640)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#475569">📅 Hire Date</text>
+    <rect x="0" y="10" width="520" height="60" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="20" y="50" font-family="Arial, sans-serif" font-size="22" fill="#94A3B8">DD/MM/YYYY</text>
+  </g>
+
+  <!-- Status -->
+  <g transform="translate(420, 760)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#475569">🔄 Employment Status</text>
+    <rect x="0" y="10" width="520" height="60" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="20" y="50" font-family="Arial, sans-serif" font-size="22" fill="#94A3B8">Select status</text>
+  </g>
+
+  <!-- Buttons -->
+  <rect x="420" y="880" width="520" height="60" rx="16" fill="#E5E7EB"/>
+  <text x="680" y="920" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#374151" text-anchor="middle">Cancel</text>
+
+  <rect x="980" y="880" width="520" height="60" rx="16" fill="url(#formGradient)"/>
+  <text x="1240" y="920" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="white" text-anchor="middle">✓ Create Employee</text>
+</svg>
